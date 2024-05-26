@@ -1,0 +1,54 @@
+.chart {
+  width: 900px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+}
+
+.gradient-custom {
+  background: linear-gradient(45deg, rgba(75, 192, 192, 0.5), rgba(75, 192, 192, 0.5));
+}
+
+.custom-card {
+  background-color: rgba(75, 192, 192, 0.8);
+  box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+}
+
+.custom-input {
+  background-color: rgba(75, 192, 192, 0.2);
+  border: 1px solid rgba(75, 192, 192, 0.5);
+  color: white;
+}
+
+.custom-btn {
+  background-color: rgb(75, 192, 192);
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: rgba(75, 192, 192, 0.8);
+  color: white;
+}
+
+.custom-navbar {
+  background-color: rgba(75, 192, 192, 0.8);
+}
+
+.navbar-brand, .nav-link, .custom-btn {
+  color: white;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border-color: rgba(75, 192, 192, 0.8);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2875, 192, 192, 0.8%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
